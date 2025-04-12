@@ -113,7 +113,7 @@ final class CountdownDispatcher {
             }
 
             final CountdownCloseEvent closeEvent = new CountdownCloseEvent(countdownId);
-            CountdownEventTrigger.triggerEventWithCancellationCheck(tickServer(), closeEvent);
+            CountdownEventTrigger.triggerEvent(tickServer(), closeEvent);
         }
     }
 
