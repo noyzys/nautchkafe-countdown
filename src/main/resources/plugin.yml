@@ -1,0 +1,3 @@
+name: nautchkafe-countdown
+version: 0.1-SNAPSHOT
+main: dev.nautchkafe.countdown.CountdownPlugin
