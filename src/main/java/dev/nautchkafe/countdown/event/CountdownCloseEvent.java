@@ -28,7 +28,7 @@ public final class CountdownCloseEvent extends Event implements Cancellable {
     }
 
     @Override
-    public void setCancelled(FINAL boolean cancelled) {
+    public void setCancelled(final boolean cancelled) {
         this.cancelled = cancelled;
     }
 
