@@ -17,8 +17,8 @@ dependencies {
     implementation("org.spigotmc:spigot-api:1.21-R0.1-SNAPSHOT")
 
     // Kyori Adventure API 
-    implementation("net.kyori:adventure-api:4.21.0")
-    implementation("net.kyori:adventure-text-minimessage:4.21.0")
+    implementation("net.kyori:adventure-api:4.22.0")
+    implementation("net.kyori:adventure-text-minimessage:4.22.0")
 
     // Test stuff
     implementation(kotlin("stdlib"))
