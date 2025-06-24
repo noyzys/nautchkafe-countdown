@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.1.21"
+    kotlin("jvm") version "2.2.0"
     id("java")
     id("com.github.johnrengelman.shadow") version "8.1.1"
 }
@@ -17,13 +17,13 @@ dependencies {
     implementation("org.spigotmc:spigot-api:1.21-R0.1-SNAPSHOT")
 
     // Kyori Adventure API 
-    implementation("net.kyori:adventure-api:4.22.0")
-    implementation("net.kyori:adventure-text-minimessage:4.22.0")
+    implementation("net.kyori:adventure-api:4.23.0")
+    implementation("net.kyori:adventure-text-minimessage:4.23.0")
 
     // Test stuff
     implementation(kotlin("stdlib"))
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.13.0")
-    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.13.0")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.13.2")
+    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.13.2")
     testImplementation("org.mockito:mockito-core:5.18.0")
     testImplementation("org.mockito.kotlin:mockito-kotlin:5.4.0")
 }
