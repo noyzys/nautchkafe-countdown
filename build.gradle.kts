@@ -24,7 +24,7 @@ dependencies {
     implementation(kotlin("stdlib"))
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.13.4")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:5.13.4")
-    testImplementation("org.mockito:mockito-core:5.18.0")
+    testImplementation("org.mockito:mockito-core:5.19.0")
     testImplementation("org.mockito.kotlin:mockito-kotlin:5.4.0")
 }
 
