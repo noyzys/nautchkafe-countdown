@@ -17,15 +17,15 @@ dependencies {
     implementation("org.spigotmc:spigot-api:1.21-R0.1-SNAPSHOT")
 
     // Kyori Adventure API 
-    implementation("net.kyori:adventure-api:4.24.0")
-    implementation("net.kyori:adventure-text-minimessage:4.24.0")
+    implementation("net.kyori:adventure-api:5.2.0")
+    implementation("net.kyori:adventure-text-minimessage:5.2.0")
 
     // Test stuff
     implementation(kotlin("stdlib"))
     testImplementation("org.junit.jupiter:junit-jupiter-api:6.0.0")
     testImplementation("org.junit.jupiter:junit-jupiter-engine:6.0.0")
     testImplementation("org.mockito:mockito-core:5.19.0")
-    testImplementation("org.mockito.kotlin:mockito-kotlin:5.4.0")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:6.3.0")
 }
 
 tasks {
