@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.2.0"
+    kotlin("jvm") version "2.4.21"
     id("java")
     id("com.github.johnrengelman.shadow") version "8.1.1"
 }
@@ -17,8 +17,8 @@ dependencies {
     implementation("org.spigotmc:spigot-api:1.21-R0.1-SNAPSHOT")
 
     // Kyori Adventure API 
-    implementation("net.kyori:adventure-api:4.24.0")
-    implementation("net.kyori:adventure-text-minimessage:4.24.0")
+    implementation("net.kyori:adventure-api:4.26.1")
+    implementation("net.kyori:adventure-text-minimessage:4.26.1")
 
     // Test stuff
     implementation(kotlin("stdlib"))
